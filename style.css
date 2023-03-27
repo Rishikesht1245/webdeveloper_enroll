@@ -1,0 +1,14 @@
+body::before{             /*When we make the navbar fixed the rest of the eleemnts of the body will moves up so to avoid it we added this */
+    display: block;
+    content: '';
+    height: 60px;
+
+}
+
+
+@media (min-width: 700px){
+    .container .news-input{
+        width: 50%;
+    }
+}
+
